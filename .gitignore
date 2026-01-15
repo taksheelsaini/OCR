@@ -1,0 +1,58 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+venv_ocr/
+ENV/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# PyCharm
+.idea/
+
+# VS Code
+.vscode/
+
+# Model checkpoints
+checkpoints/
+*.pth
+*.pt
+
+# Logs
+logs/
+*.log
+
+# macOS
+.DS_Store
+
+# Data files (large datasets)
+data/
+grocery_dataset/
+doctor_dataset/
+
+# Large Data & Models (Ignored for GitHub)
+trocr_data/
+trocr_finetuned/
+
+# Keep the zipped dataset
+!trocr_dataset_zipped.zip
